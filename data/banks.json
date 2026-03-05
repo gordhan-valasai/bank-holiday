@@ -77,6 +77,94 @@
     "description": "Large regional bank in the United States"
   },
   {
+    "id": "us-bank",
+    "bank": "US Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major regional bank"
+  },
+  {
+    "id": "bank-of-ny-mellon",
+    "bank": "Bank of New York Mellon",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "Limited hours",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Investment banking and financial services"
+  },
+  {
+    "id": "capital-one",
+    "bank": "Capital One",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Digital bank with physical branches"
+  },
+  {
+    "id": "fifth-third-bank",
+    "bank": "Fifth Third Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Regional banking company"
+  },
+  {
+    "id": "key-bank",
+    "bank": "KeyBank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "Limited hours",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Regional bank in the United States"
+  },
+  {
+    "id": "m-and-t-bank",
+    "bank": "M&T Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Regional bank based in New York"
+  },
+  {
+    "id": "truist-bank",
+    "bank": "Truist Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Regional bank in Southeast United States"
+  },
+  {
+    "id": "citizens-bank",
+    "bank": "Citizens Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major regional bank in New England"
+  },
+  {
     "id": "barclays-uk",
     "bank": "Barclays",
     "country": "UK",
@@ -165,6 +253,17 @@
     "description": "Major Canadian bank with international presence"
   },
   {
+    "id": "cibc",
+    "bank": "CIBC",
+    "country": "Canada",
+    "hours_weekday": "10:00 AM - 4:00 PM",
+    "hours_saturday": "Limited hours (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Canadian bank and financial services"
+  },
+  {
     "id": "cba-australia",
     "bank": "Commonwealth Bank of Australia",
     "country": "Australia",
@@ -209,3 +308,4 @@
     "description": "One of Australia's largest banks"
   }
 ]
+

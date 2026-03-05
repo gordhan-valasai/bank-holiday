@@ -11,12 +11,39 @@ const banks = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/banks.jso
 // Combine all holidays
 const allHolidays = [...usaHolidays, ...ukHolidays, ...canadaHolidays, ...australiaHolidays];
 
-// Sample cities for each country
+// Sample cities for each country (expanded for scale)
 const cities = {
-  USA: ['new-york', 'los-angeles', 'Chicago', 'houston', 'phoenix', 'philadelphia', 'san-antonio', 'san-diego', 'dallas', 'san-jose'],
-  UK: ['london', 'birmingham', 'leeds', 'glasgow', 'sheffield', 'manchester', 'edinburgh', 'liverpool', 'bristol', 'leicester'],
-  Canada: ['toronto', 'vancouver', 'calgary', 'edmonton', 'ottawa', 'winnipeg', 'quebec-city', 'montreal', 'halifax', 'vancouver'],
-  Australia: ['sydney', 'melbourne', 'brisbane', 'perth', 'adelaide', 'hobart', 'canberra', 'gold-coast', 'newcastle', 'wollongong']
+  USA: [
+    'new-york', 'los-angeles', 'chicago', 'houston', 'phoenix', 'philadelphia', 
+    'san-antonio', 'san-diego', 'dallas', 'san-jose', 'austin', 'jacksonville',
+    'fort-worth', 'columbus', 'charlotte', 'san-francisco', 'indianapolis', 
+    'seattle', 'denver', 'washington-dc', 'boston', 'miami', 'atlanta',
+    'portland', 'las-vegas', 'minneapolis', 'new-orleans', 'detroit',
+    'baltimore', 'memphis', 'louisville', 'milwaukee', 'albuquerque', 'tucson',
+    'fresno', 'sacramento', 'kansas-city', 'long-beach', 'mesa', 'virginia-beach',
+    'cleveland', 'wichita', 'arlington', 'corpus-christi', 'lexington', 'anchorage',
+    'plano', 'stockton'
+  ],
+  UK: [
+    'london', 'birmingham', 'leeds', 'glasgow', 'sheffield', 'manchester', 
+    'edinburgh', 'liverpool', 'bristol', 'leicester', 'coventry', 'bradford',
+    'newcastle', 'wolverhampton', 'derby', 'nottingham', 'southampton',
+    'durham', 'cardiff', 'belfast', 'cork', 'galway', 'plymouth', 'swansea',
+    'cambridge', 'oxford', 'york', 'bath', 'brighton', 'bournemouth',
+    'southend-on-sea', 'swindon'
+  ],
+  Canada: [
+    'toronto', 'vancouver', 'calgary', 'edmonton', 'ottawa', 'winnipeg', 
+    'quebec-city', 'montreal', 'halifax', 'victoria', 'london', 'kitchener',
+    'hamilton', 'st-catharines', 'lethbridge', 'red-deer', 'saskatoon', 'regina',
+    'thunder-bay', 'sudbury', 'kingston', 'guelph', 'barrie', 'moncton'
+  ],
+  Australia: [
+    'sydney', 'melbourne', 'brisbane', 'perth', 'adelaide', 'hobart', 
+    'canberra', 'gold-coast', 'newcastle', 'wollongong', 'logan-city',
+    'geelong', 'central-coast', 'sunshine-coast', 'cairns', 'launceston',
+    'townsville', 'darwin', 'alice-springs', 'armidale'
+  ]
 };
 
 // Helper functions
@@ -119,12 +146,12 @@ const generatePages = () => {
             slug,
             type: 'city-bank-hours',
             template: 'cityBankHours',
-            pageTitle: `${bank.bank} Hours in ${city.replace('-', ' ')}, ${country}`,
-            metaDescription: `${bank.bank} branch hours in ${city.replace('-', ' ')}, ${country}. Phone numbers, locations, and holiday schedules.`,
-            h1: `${bank.bank} Hours in ${city.replace('-', ' ')}`,
+            pageTitle: `${bank.bank} Hours in ${city.replace(/-/g, ' ')}, ${country}`,
+            metaDescription: `${bank.bank} branch hours in ${city.replace(/-/g, ' ')}, ${country}. Phone numbers, locations, and holiday schedules.`,
+            h1: `${bank.bank} Hours in ${city.replace(/-/g, ' ')}`,
             bank: bank.bank,
             bankId: bank.id,
-            city: city.replace('-', ' '),
+            city: city.replace(/-/g, ' '),
             country: country,
             keywords: [`${bank.bank} ${city} hours`, `${bank.bank} near me`]
           });
@@ -201,6 +228,53 @@ const generatePages = () => {
       metaDescription: 'Are banks open on Sunday? Check weekend hours for major banks and ATM availability.',
       h1: 'Are Banks Open on Sunday?',
       keywords: ['are banks open on sunday', 'sunday bank hours', 'banks open on weekend']
+    },
+    {
+      slug: 'when-is-thanksgiving',
+      type: 'search-intent',
+      template: 'holidaySearch',
+      pageTitle: 'When is Thanksgiving 2026? - Date & Bank Hours',
+      metaDescription: 'When is Thanksgiving in 2026? Thanksgiving date is November 26. See which banks are closed.',
+      h1: 'When is Thanksgiving 2026?',
+      keywords: ['when is thanksgiving', 'thanksgiving 2026 date', 'thanksgiving day']
+    },
+    {
+      slug: 'when-is-christmas',
+      type: 'search-intent',
+      template: 'holidaySearch',
+      pageTitle: 'When is Christmas 2026? - Date & Bank Holiday Status',
+      metaDescription: 'When is Christmas in 2026? Christmas date is December 25. See bank closures and holiday schedules.',
+      h1: 'When is Christmas 2026?',
+      keywords: ['when is christmas', 'christmas 2026', 'christmas day date']
+    },
+    {
+      slug: 'atm-open-on-holidays',
+      type: 'search-intent',
+      template: 'holidayATM',
+      pageTitle: 'Are ATMs Open on Holidays? - 24/7 ATM Availability',
+      metaDescription: 'Are ATMs open on holidays? Yes, most ATMs are available 24/7, even on bank holidays.',
+      h1: 'Are ATMs Open on Holidays?',
+      keywords: ['atm open on holidays', 'atm available on holidays', '24/7 atm']
+    },
+    {
+      slug: 'bank-holidays-usa',
+      type: 'search-intent',
+      template: 'countryBankHolidays',
+      pageTitle: 'USA Bank Holidays 2026 - Federal Holiday Schedule',
+      metaDescription: 'USA bank holidays 2026. See which banks are closed on federal holidays in the United States.',
+      h1: 'USA Bank Holidays 2026',
+      country: 'USA',
+      keywords: ['usa bank holidays 2026', 'federal holidays', 'us bank closures']
+    },
+    {
+      slug: 'bank-holidays-uk',
+      type: 'search-intent',
+      template: 'countryBankHolidays',
+      pageTitle: 'UK Bank Holidays 2026 - Complete Schedule',
+      metaDescription: 'UK bank holidays 2026. See when banks are closed in England, Scotland, Wales, and Northern Ireland.',
+      h1: 'UK Bank Holidays 2026',
+      country: 'UK',
+      keywords: ['uk bank holidays 2026', 'bank holidays england', 'uk bank closures']
     }
   ];
 
