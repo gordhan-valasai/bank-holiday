@@ -4,6 +4,8 @@ import uk from "@/data/uk-holidays.json";
 import canada from "@/data/canada-holidays.json";
 import australia from "@/data/australia-holidays.json";
 
+// Bank holiday tracker for USA, UK, Canada, and Australia
+
 export const metadata = {
   title: "Bank Holiday Hours | Find When Banks Are Closed",
   description: "Check bank holiday hours for USA, UK, Canada, and Australia. Find out when your bank is open or closed.",
