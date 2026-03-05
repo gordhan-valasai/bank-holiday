@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bankopentoday.com/sitemap.xml
+User-agent: GPTBot
+Disallow:
+
+User-agent: ChatGPT-User
+Disallow:
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

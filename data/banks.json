@@ -1,0 +1,211 @@
+[
+  {
+    "id": "bank-of-america",
+    "bank": "Bank of America",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "One of the largest banks in the United States"
+  },
+  {
+    "id": "chase-bank",
+    "bank": "Chase Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major bank with extensive branch network"
+  },
+  {
+    "id": "wells-fargo",
+    "bank": "Wells Fargo",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "10:00 AM - 2:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major bank serving customers across the United States"
+  },
+  {
+    "id": "citibank",
+    "bank": "Citibank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "Limited hours",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Global bank with U.S. presence"
+  },
+  {
+    "id": "hsbc-usa",
+    "bank": "HSBC Bank USA",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "International bank with presence in the United States"
+  },
+  {
+    "id": "td-bank",
+    "bank": "TD Bank",
+    "country": "USA",
+    "hours_weekday": "8:00 AM - 6:00 PM",
+    "hours_saturday": "9:00 AM - 5:00 PM",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major bank with extended hours"
+  },
+  {
+    "id": "pnc-bank",
+    "bank": "PNC Bank",
+    "country": "USA",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Large regional bank in the United States"
+  },
+  {
+    "id": "barclays-uk",
+    "bank": "Barclays",
+    "country": "UK",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on bank holidays",
+    "atm_available": true,
+    "description": "Major UK bank"
+  },
+  {
+    "id": "hsbc-uk",
+    "bank": "HSBC UK",
+    "country": "UK",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "9:00 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on bank holidays",
+    "atm_available": true,
+    "description": "Leading UK bank with global operations"
+  },
+  {
+    "id": "lloyds",
+    "bank": "Lloyds Bank",
+    "country": "UK",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "Limited hours",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on bank holidays",
+    "atm_available": true,
+    "description": "Major UK retail and commercial bank"
+  },
+  {
+    "id": "natwest",
+    "bank": "NatWest",
+    "country": "UK",
+    "hours_weekday": "9:00 AM - 5:00 PM",
+    "hours_saturday": "Limited hours",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on bank holidays",
+    "atm_available": true,
+    "description": "Major UK banking group"
+  },
+  {
+    "id": "rbc-canada",
+    "bank": "Royal Bank of Canada",
+    "country": "Canada",
+    "hours_weekday": "10:00 AM - 4:00 PM",
+    "hours_saturday": "10:00 AM - 2:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Largest bank in Canada"
+  },
+  {
+    "id": "td-canada",
+    "bank": "Toronto-Dominion Bank",
+    "country": "Canada",
+    "hours_weekday": "10:00 AM - 4:00 PM",
+    "hours_saturday": "10:00 AM - 2:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major Canadian bank"
+  },
+  {
+    "id": "bmo-canada",
+    "bank": "Bank of Montreal",
+    "country": "Canada",
+    "hours_weekday": "10:00 AM - 4:00 PM",
+    "hours_saturday": "10:00 AM - 2:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Second-oldest bank in North America"
+  },
+  {
+    "id": "scotiabank-canada",
+    "bank": "Scotiabank",
+    "country": "Canada",
+    "hours_weekday": "10:00 AM - 4:00 PM",
+    "hours_saturday": "10:00 AM - 2:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on federal holidays",
+    "atm_available": true,
+    "description": "Major Canadian bank with international presence"
+  },
+  {
+    "id": "cba-australia",
+    "bank": "Commonwealth Bank of Australia",
+    "country": "Australia",
+    "hours_weekday": "9:30 AM - 4:00 PM",
+    "hours_saturday": "9:30 AM - 12:30 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on public holidays",
+    "atm_available": true,
+    "description": "Largest bank in Australia"
+  },
+  {
+    "id": "westpac-australia",
+    "bank": "Westpac",
+    "country": "Australia",
+    "hours_weekday": "9:30 AM - 4:00 PM",
+    "hours_saturday": "9:30 AM - 12:30 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on public holidays",
+    "atm_available": true,
+    "description": "Major Australian bank"
+  },
+  {
+    "id": "anz-australia",
+    "bank": "Australia and New Zealand Banking Group",
+    "country": "Australia",
+    "hours_weekday": "9:30 AM - 4:00 PM",
+    "hours_saturday": "9:30 AM - 12:30 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on public holidays",
+    "atm_available": true,
+    "description": "Major Australian and New Zealand bank"
+  },
+  {
+    "id": "nab-australia",
+    "bank": "National Australia Bank",
+    "country": "Australia",
+    "hours_weekday": "9:30 AM - 4:00 PM",
+    "hours_saturday": "9:30 AM - 1:00 PM (select branches)",
+    "hours_sunday": "Closed",
+    "holiday_policy": "Closed on public holidays",
+    "atm_available": true,
+    "description": "One of Australia's largest banks"
+  }
+]

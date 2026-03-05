@@ -1,0 +1,90 @@
+[
+  {
+    "id": "new-years-day",
+    "holiday": "New Year's Day",
+    "date": "2026-01-01",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on January 1st"
+  },
+  {
+    "id": "good-friday",
+    "holiday": "Good Friday",
+    "date": "2026-04-03",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on the Friday before Easter"
+  },
+  {
+    "id": "easter-monday",
+    "holiday": "Easter Monday",
+    "date": "2026-04-06",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Northern Ireland",
+    "description": "Bank holiday on the Monday after Easter"
+  },
+  {
+    "id": "early-may-bank-holiday",
+    "holiday": "Early May Bank Holiday",
+    "date": "2026-05-04",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on the first Monday in May"
+  },
+  {
+    "id": "spring-bank-holiday",
+    "holiday": "Spring Bank Holiday",
+    "date": "2026-05-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on the last Monday in May"
+  },
+  {
+    "id": "summer-bank-holiday",
+    "holiday": "Summer Bank Holiday",
+    "date": "2026-08-31",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Northern Ireland",
+    "description": "Bank holiday on the last Monday in August"
+  },
+  {
+    "id": "christmas-day",
+    "holiday": "Christmas Day",
+    "date": "2026-12-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on December 25th"
+  },
+  {
+    "id": "boxing-day",
+    "holiday": "Boxing Day",
+    "date": "2026-12-26",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "bank_holiday",
+    "country": "UK",
+    "region": "England, Wales, Scotland, Northern Ireland",
+    "description": "Bank holiday on December 26th"
+  }
+]

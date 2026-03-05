@@ -1,0 +1,102 @@
+[
+  {
+    "id": "new-years-day",
+    "holiday": "New Year's Day",
+    "date": "2026-01-01",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on January 1st"
+  },
+  {
+    "id": "mlk-day",
+    "holiday": "Martin Luther King Jr. Day",
+    "date": "2026-01-19",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the third Monday in January"
+  },
+  {
+    "id": "presidents-day",
+    "holiday": "Presidents Day",
+    "date": "2026-02-16",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the third Monday in February"
+  },
+  {
+    "id": "memorial-day",
+    "holiday": "Memorial Day",
+    "date": "2026-05-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the last Monday in May"
+  },
+  {
+    "id": "independence-day",
+    "holiday": "Independence Day",
+    "date": "2026-07-04",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "National holiday celebrating American independence on July 4th"
+  },
+  {
+    "id": "labor-day",
+    "holiday": "Labor Day",
+    "date": "2026-09-07",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the first Monday in September"
+  },
+  {
+    "id": "columbus-day",
+    "holiday": "Columbus Day",
+    "date": "2026-10-12",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the second Monday in October"
+  },
+  {
+    "id": "veterans-day",
+    "holiday": "Veterans Day",
+    "date": "2026-11-11",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday honoring military veterans on November 11th"
+  },
+  {
+    "id": "thanksgiving",
+    "holiday": "Thanksgiving Day",
+    "date": "2026-11-26",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday observed on the fourth Thursday in November"
+  },
+  {
+    "id": "christmas",
+    "holiday": "Christmas Day",
+    "date": "2026-12-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "federal",
+    "country": "USA",
+    "description": "Federal holiday celebrating the birth of Jesus Christ on December 25th"
+  }
+]

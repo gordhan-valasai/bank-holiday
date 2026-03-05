@@ -1,0 +1,101 @@
+[
+  {
+    "id": "new-years-day",
+    "holiday": "New Year's Day",
+    "date": "2026-01-01",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "All states",
+    "description": "Public holiday on January 1st"
+  },
+  {
+    "id": "australia-day",
+    "holiday": "Australia Day",
+    "date": "2026-01-26",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "All states",
+    "description": "Public holiday on January 26th celebrating Australian culture"
+  },
+  {
+    "id": "good-friday",
+    "holiday": "Good Friday",
+    "date": "2026-04-03",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "Most states",
+    "description": "Public holiday on the Friday before Easter"
+  },
+  {
+    "id": "easter-saturday",
+    "holiday": "Easter Saturday",
+    "date": "2026-04-04",
+    "banks_open": true,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "NSW, ACT, NT, SA",
+    "description": "Public holiday on Saturday after Good Friday in some states"
+  },
+  {
+    "id": "easter-monday",
+    "holiday": "Easter Monday",
+    "date": "2026-04-06",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "Most states",
+    "description": "Public holiday on the Monday after Easter"
+  },
+  {
+    "id": "anzac-day",
+    "holiday": "ANZAC Day",
+    "date": "2026-04-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "All states",
+    "description": "Public holiday on April 25th honoring military service"
+  },
+  {
+    "id": "queen-birthday",
+    "holiday": "Queen's Birthday",
+    "date": "2026-06-08",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "Most states (varies by state)",
+    "description": "Public holiday celebrating the Queen's birthday (date varies by state)"
+  },
+  {
+    "id": "christmas-day",
+    "holiday": "Christmas Day",
+    "date": "2026-12-25",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "All states",
+    "description": "Public holiday on December 25th"
+  },
+  {
+    "id": "boxing-day",
+    "holiday": "Boxing Day",
+    "date": "2026-12-26",
+    "banks_open": false,
+    "schools_open": false,
+    "type": "public",
+    "country": "Australia",
+    "region": "All states",
+    "description": "Public holiday on December 26th"
+  }
+]
